@@ -1,6 +1,6 @@
 package PracticePrograms2;
 
-public class Prac0001 {
+public class Prac001_ReverseNumber {
     public static void main(String[] args) {
         //Reverse a number
         //I/p = 3456 O/P = 6543

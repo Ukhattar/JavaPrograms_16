@@ -1,6 +1,6 @@
 package PracticePrograms2;
 
-public class Prac0002 {
+public class Prac002_ReverseString {
     public static void main(String[] args) {
         //ReverseString
         String name = "Urja";
