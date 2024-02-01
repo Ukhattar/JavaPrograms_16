@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class AnagramStrings {
     public static void main(String[] args) {
-        String str1 = "guava";
+        String str1 = "aavj";
         String str2 = "java";
         boolean result;
 
