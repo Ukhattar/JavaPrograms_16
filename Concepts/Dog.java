@@ -2,6 +2,8 @@ package Concepts;
 
 public class Dog {
     //Instance Variable
+
+     String colour = "White";
     int ageofdog;
     String nameofDog;
 
@@ -19,6 +21,10 @@ public class Dog {
      void bark()
      {
          System.out.println(nameofDog + "of age" + ageofdog + "barks a lot");
+     }
+     void eat()
+     {
+         System.out.println("Eating..");
      }
 
 }

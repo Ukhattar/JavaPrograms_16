@@ -6,7 +6,7 @@ public class FindElementBinarySearch {
         // if key > mid  l = mid -1
         // if key < mid  h = mid -1
         int a[] = {1,2,3,4,5,6,7,8,9,10};
-        int key = 13;
+        int key = 4;
         int l = 0;
         int h = a.length-1;
         boolean flag = false;

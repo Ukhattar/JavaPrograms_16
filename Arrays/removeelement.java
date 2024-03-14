@@ -16,7 +16,7 @@ public class removeelement {
 
     public int[] remove(int[] array, int ele){
         int[] newarray = new int[array.length-1];
-        int index = 0;
+       int index = 0;
         for(int i =0;i<= array.length-1;i++)
         {
             if(array[i]!=ele)

@@ -10,11 +10,11 @@ public class RemoveSpecialcharfromString {
 
         // to ignore special characters and print alphanumeric
 
-//       s = s.replaceAll("[^a-zA-Z0-9]","");
-//        System.out.println(s);
-        //remove white space in string
-        s = s.replaceAll("\\s", "");
+       s = s.replaceAll("[^a-zA-Z0-9]","");
         System.out.println(s);
+        //remove white space in string
+//        s = s.replaceAll("\\s", "");
+//        System.out.println(s);
     }
 }
 

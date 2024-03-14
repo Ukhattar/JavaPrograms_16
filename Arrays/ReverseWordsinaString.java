@@ -5,18 +5,18 @@ public class ReverseWordsinaString {
         //Input - Welcome To Java // Output //emocleW oT avaJ
         String str = "Welcome To Java";
         String words[] = str.split(" ");
-        String reversestr = " ";
+        String reverseword = " ";
         for(String w: words)
         {
            // System.out.println(w);
-            String reverseword = " ";
+          //  String reverseword = " ";
             for(int i = w.length()-1; i>=0;i--)
             {
               reverseword = reverseword + w.charAt(i);
             }
-            reversestr = reversestr + reverseword;
+      //      reversestr = reversestr + reverseword;
         }
-        System.out.println(reversestr);
+        System.out.println(reverseword);
 
     }
 
